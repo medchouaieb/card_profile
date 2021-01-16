@@ -23,7 +23,7 @@ body {
     position: relative;
     width: 100%;
     height: 100%;
-    margin-top: 15%;
+    margin-top: 10%;
     margin-bottom: 180px;
     align-items: center;
     justify-content: center;
@@ -31,41 +31,45 @@ body {
 }
 
 .card {
-    border-radius: 30px;
-    height: 300px;
+    margin-top: 0;
+    height: 250px;
     width: 350px;
 }
 
 .upper-card {
     height: 150px;
-    border-radius: 30px 30px 0 0;
+    border-radius: 10px 10px 0 0;
     background-image: url('./images/bg-pattern-card.svg')
 }
 
 .card-content {
     position: relative;
     background-color: white;
-    border-radius: 0 0 30px 30px;
+    border-radius: 0 0 10px 10px;
     height: 100%;
 }
 
-
+.card-header{
+    padding: 5px;
+}
 .card-content>img {
     position: absolute;
-    bottom: 250px;
+    bottom: 200px;
     left: 125px;
     border-radius: 50%;
     border: 5px solid white;
 }
-
+.card-footer{
+    padding-top: 15px;
+}
 h1 {
     text-align: center;
     padding-top: 75px;
     font-size: 18px;
 }
-
 .grey {
     color: hsl(227, 10%, 46%);
+    font-weight: 400;
 }
 
 .align-center {
@@ -74,11 +78,10 @@ h1 {
 
 .divider {
     margin-top: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     height: 1px;
-    background: hsl(227, 10%, 46%);
+    background:hsl(0, 0%, 59%);
 }
-
 .numbers{
     display: flex;
 }
@@ -97,13 +100,11 @@ h1 {
 .attribution {
     font-size: 11px;
     text-align: center;
-    position: relative;
     height: 50px;
-    margin-top: -100px;
-    width: 100%;
 }
 
 .attribution a {
     color: hsl(228, 45%, 44%);
     display: block;
 }
+
